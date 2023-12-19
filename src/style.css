@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    font-size: 2rem;
+    font-family: cooper;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,rgb(24, 28, 138),rgb(17, 80, 216));
+    color:white;
+}
+
+.input-submit-btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+
+.input-submit-btn input{
+    padding:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 50px 0px 0px 50px;
+    border:1px solid rgb(24, 28, 138);
+    outline: none;
+}
+
+.input-submit-btn button
+{
+    padding: 10px;
+    border-radius: 0px 50px 50px 0px;
+    border:1px solid rgb(24, 28, 138);
+    color:white;
+    background-image: linear-gradient(to bottom,rgb(24, 28, 138),rgb(17, 80, 216));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input-submit-btn button:hover
+{
+    background-image: linear-gradient(to bottom,rgb(17, 80, 216),rgb(24, 28, 138));
+}
+
+.options
+{
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+
+.options button{
+    padding: 10px;
+    border-radius: 50px 50px 50px 50px;
+    border:1px solid rgb(24, 28, 138);
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    width:30vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.options button:nth-child(1)
+{
+    background-image: linear-gradient(to bottom,rgb(24, 28, 138),rgb(17, 80, 216));
+}
+
+.options button:nth-child(2)
+{
+    background-image: linear-gradient(to bottom,rgb(149, 11, 6),rgb(216, 47, 17));
+}
+
+.result
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.b-img
+{
+    background-image: url("thala.jpg");
+    height: 92vh;
+    width: 100vw;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:absolute;
+    margin-top:-90px;
+    z-index: -100;
+    opacity: 0;
+    transition: 0s;
+}
